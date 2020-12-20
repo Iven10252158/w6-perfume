@@ -1,0 +1,79 @@
+$color: #8D8D8D;
+
+.menuBar{
+  font-size: 20px;
+  li a{
+  color: $color;
+    &:hover{
+  border-bottom: 3px solid;
+  color:#000;
+    }
+  }
+}
+
+.banner{
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index1.jpg");
+  height: 870px;
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:#fff;
+
+  a{
+    color:#fff;
+  
+    &:hover{
+      background-color: rgba(255, 255, 255, 0.3);
+      color:#000;
+    }
+  }
+}
+
+.part:hover{
+  background-color: #bfbfbf;
+}
+
+.second_img{
+  padding-top: 100%;
+}
+.square{
+  position: relative;
+}
+.square_img{
+  &::before{
+    content: "Sold Out";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+  }
+}
+.bg-cover{
+  background-size: cover;
+  background-position: center center;
+}
+
+.footerR li a {
+  color: white;
+
+  &:hover {
+    color: #adb5bd;
+  }
+}
+
+@media (min-width: 768px) {
+  .description {
+    position: absolute;
+    right: 0;
+  }
+}
+
+.memberRevise:hover{
+  border-bottom: 3px solid #916000 ;
+}
